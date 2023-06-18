@@ -1,0 +1,64 @@
+"Phrases"
+{
+	"EIO_InputUsage"
+	{
+		"en"	"{magenta}[EntityIO]{default} Usage sm_eio_input {green}<search_type:name|class|hammerid> <search_value> <search_type=class:all|first> <input> {blue}[param]{default}"
+	}
+
+	"EIO_InputUsage_ByName"
+	{
+		"en"	"{magenta}[EntityIO]{default} Usage: sm_eio_input name {green}<name> <input> {blue}[param]{default}"
+	}
+
+	"EIO_InputUsage_ByClass"
+	{
+		"en"	"{magenta}[EntityIO]{default} Usage: sm_eio_input class {green}<name> <all|first> <input> {blue}[param]{default}"
+	}
+
+	"EIO_InputUsage_ByHammerID"
+	{
+		"en"	"{magenta}[EntityIO]{default} Usage: sm_eio_input hammerid {green}<hammerid> <input> {blue}[param]{default}"
+	}
+
+	"EIO_OutputUsage"
+	{
+		"en"	"{magenta}[EntityIO]{default} Usage: sm_eio_output {green}<search_type:name|class|hammerid> <search_value> <search_type=class:all|first> <output> {blue}[delay] [param]{default}"
+	}
+
+	"EIO_OutputUsage_ByName"
+	{
+		"en"	"{magenta}[EntityIO]{default} Usage: sm_eio_output name {green}<name> <output> {blue}[delay] [param]{default}"
+	}
+
+	"EIO_OutputUsage_ByClass"
+	{
+		"en"	"{magenta}[EntityIO]{default} Usage: sm_eio_output class {green}<name> <all|first> <output> {blue}[delay] [param]{default}"
+	}
+
+	"EIO_OutputUsage_ByHammerID"
+	{
+		"en"	"{magenta}[EntityIO]{default} Usage: sm_eio_output hammerid {green}<hammerid> <output> {blue}[delay] [param]{default}"
+	}
+
+	// Errors.
+
+	"EIO_CouldntFindEntity"
+	{
+		"en"	"{magenta}[EntityIO]{default} Couldn't find entity with name \"%s\"."
+	}
+
+	"EIO_CouldntFindClass"
+	{
+		"en"	"{magenta}[EntityIO]{default} Couldn't find entity with classname \"%s\"."
+	}
+
+	"EIO_CouldntFindHammerID"
+	{
+		"en"	"{magenta}[EntityIO]{default} Couldn't find entity with Hammer ID \"%d\"."
+	}
+
+	"EIO_HammerIDMustBeNumber"
+	{
+		"en"	"{magenta}[Entity]{default} Non-number \"%s\" passed as Hammer ID."
+	}
+}
